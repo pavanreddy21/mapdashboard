@@ -1,0 +1,19 @@
+/* .ListItem {
+  position: relative;
+  padding-left: 5px;
+} */
+
+.arrow {
+  height: 12px;
+  width: 12px;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.icons{
+  visibility: hidden
+}
+
+.objective:hover .icons{
+  visibility:visible;
+}

@@ -1,0 +1,75 @@
+<Grid container>
+     <Grid  item xs={6} justify="left" alignItems="center" >
+       <Avatar className={classes.orangeAvatar}>Z</Avatar>      UserName
+
+     </Grid>
+     <Grid  item xs={6} align="right" justify="center" alignItems="center">
+     <Fab  className={classes.fab}>
+             <AddIcon />
+      </Fab>
+     <Fab  className={classes.fab}>
+             <StarBorderIcon/>
+      </Fab>
+        <Fab className={classes.fab}>
+             <SaveAltIcon/>
+      </Fab>
+
+     </Grid>
+
+     </Grid>
+
+                                                 <Chip
+                                                   icon={<KeyboardArrowLeftIcon />}
+                                                   label="Primary Clickable Chip"
+                                                   clickable
+                                                   className={classes.chip}
+                                                   onDelete={handleDelete}
+                                                   deleteIcon={<KeyboardArrowRightIcon />}
+
+                                                 />
+
+
+                                                 style={{borderRadius:50}}
+
+
+
+
+                                <Card   style={{height: '50px',marginRight:'20px',align:"center"}} >
+                                                 <CardContent  justify="center" alignItems="center">
+                                                    <Typography disable typography style={{align:"center"}}  >Click Here to add new objective</Typography>
+                                                 </CardContent>
+                                         </Card>
+
+
+                                         backGroundColor:'#12C08B'
+
+                                          Can’t find what you’re looking for?
+
+                                         You’re currently only seeing objectives that are assigned to Annual 2019.
+
+                                         You can change the time period to see other objectives.
+
+
+
+
+<CardContent justify="center" alignItems="center" style={{display:"block"}}>
+                                  <KeyboardArrowLeftIcon style={{align:"left",paddingBottom:"5px"}} />
+                                  <Typography style={{marginLeft:" 25%",marginRight:"25%",marginBottom:"5px",align:"center", display:"inline"}}  >timeline</Typography>
+                                  <KeyboardArrowRightIcon style={{float:"right",paddingBottom:"5px"}} />
+                                 </CardContent>
+
+                                  <Grid item xs={2}>
+                                                                             <KeyboardArrowDownIcon/>
+                                                                           </Grid><Select
+                                value={this.state.timePeriod}
+                                onChange={this.handleTimePeriod.bind(this)}
+                                name="timePeriod"
+                                id="timePeriod"
+                                
+                              >
+                             
+                              <MenuItem value="Q1 2019">Q1 2019</MenuItem>
+                              <MenuItem value="Q2 2019">Q2 2019</MenuItem>
+                              <MenuItem value="Q3 2019">Q3 2019</MenuItem>
+                              <MenuItem value="Q4 2019">Q4 2019</MenuItem>
+                            </Select>

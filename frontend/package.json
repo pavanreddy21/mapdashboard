@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "devextreme": "^18.2.7",
+    "devextreme-react": "^18.2.7",
+    "fast-memoize": "^2.5.1",
+    "ramda": "^0.26.1",
+    "rc-progress": "^2.3.0",
+    "react": "^16.8.6",
+    "react-circular-progressbar": "^1.0.0",
+    "react-dom": "^16.8.6",
+    "react-linear-progressbar": "^1.2.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-select": "^2.4.2",
+    "react-sortable-tree": "^2.6.2",
+    "treeview-multilevel-react": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "prettier": "1.16.4"
+  }
+}
